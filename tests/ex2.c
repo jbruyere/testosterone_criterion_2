@@ -30,8 +30,8 @@ Quel est l'interêt de faire coder le test avant de coder la fonction ?
 
 Test(test_ex2, ex2)
 {
-    // cr_expect(my_func(-2, 2, 3) == 5);
-    // cr_expect(my_func(2, 3, 4) == -1);
-    // cr_expect(my_func(16, 12, 5) == -12);
-    // cr_expect(my_func(3, 4, 7) == 3);
+    // cr_expect(my_func(-2, 2, 3) == 5, "Résultat 1 invalide !");
+    // cr_expect(my_func(2, 3, 4) == -1, "Résultat 2 invalide !");
+    // cr_expect(my_func(16, 12, 5) == -12, "Résultat 3 invalide !");
+    // cr_expect(my_func(3, 4, 7) == 3, "Résultat 4 invalide !");
 }
